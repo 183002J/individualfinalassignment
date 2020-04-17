@@ -22,9 +22,39 @@ html, body {
 
 body {
   font-family:'Space Mono';
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
   background-position: center top;
   background-size: cover;
+  background-image: images/sky.jpg;
+ background-color: lightblue;
+ 
+
+}
+h1{
+  color:black;
+  font-family: 'bold' bold;
+  font-size: 60;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+h2{
+  font-size: 20px;
+  text-align: center;
+}
+p{
+  color: black;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+
+}
+nav{
+  background: darkgray;
+}
+footer{
+  color:black;
+  background-color: grey;
+
 }
 .page-title {
   text-align: center;
