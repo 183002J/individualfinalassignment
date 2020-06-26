@@ -11,12 +11,13 @@
     <!-- Links to the Bootstrap CSS and CSS styelsheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+ <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Open+Sans+Condensed:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
     <title>Colombia</title>
   </head>
 <body>
 
-    <h1 align="center">Colombia</h1>
+    <h1>Colombia</h1>
   
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Menu</a>
@@ -45,15 +46,17 @@
     </ul>
      <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-light my-2 my-sm-0" type="submit"><img src="images/search.png" height="30" alt="Search"></button>
+        <button class="btn btn-light my-2 my-sm-0" id="button" type="submit"><img src="images/search.png" class="button" alt="Search">
+																				  
+	 </button>
       </form>
       </div>
     </nav>
 
 
-
 <!-- This is the page content -->
     <div id="content">
+		<div class="container-fluid">
          
 
          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -64,21 +67,21 @@
             </ol>
         <div class="carousel-inner">
            <div class="carousel-item active">
-             <img src="images/culture.jpg" class="d-block w-100" alt="Culture" height="500px">
+             <img src="images/culture.jpg" alt="Culture" class="slideshow">
              <div class="carousel-caption d-none d-md-block">
              <h5>Culture</h5>
              <p>Discover more of the beautiful culture</p>
              </div>
            </div>
            <div class="carousel-item">
-            <img src="images/nature.jpg" class="d-block w-100" alt="natue" height="500px">
+            <img src="images/nature.jpg" class="slideshow" alt="natue" >
             <div class="carousel-caption d-none d-md-block">
             <h5>Nature</h5>
             <p>Discover the diverse nature</p>
             </div>
            </div>
            <div class="carousel-item">
-             <img src="images/food.jpg" class="d-block w-100" alt="food" height="500px">
+             <img src="images/food.jpg" class="slideshow" alt="food" >
              <div class="carousel-caption d-none d-md-block">
              <h5>Food</h5>
              <p>Taste the delicious food</p>
@@ -96,12 +99,12 @@
       </div>
            
 
-        </div>
+        
         
     
-</nav>
+
 <div> 
-  <p class="col-11">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et urna augue. Nam a est orci. Phasellus ac nunc nulla. Nulla facilisi. Maecenas leo sapien, posuere eu ante ultrices, tincidunt volutpat lacus. Ut sollicitudin erat metus, quis imperdiet magna euismod ut. Maecenas accumsan, nulla sed placerat gravida, eros metus sagittis ante, in fringilla mauris felis et lacus. In consectetur quis risus ac aliquam. Curabitur est urna, consectetur id justo molestie, molestie interdum libero. Suspendisse ac risus quis eros porta fermentum volutpat quis erat.
+  <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et urna augue. Nam a est orci. Phasellus ac nunc nulla. Nulla facilisi. Maecenas leo sapien, posuere eu ante ultrices, tincidunt volutpat lacus. Ut sollicitudin erat metus, quis imperdiet magna euismod ut. Maecenas accumsan, nulla sed placerat gravida, eros metus sagittis ante, in fringilla mauris felis et lacus. In consectetur quis risus ac aliquam. Curabitur est urna, consectetur id justo molestie, molestie interdum libero. Suspendisse ac risus quis eros porta fermentum volutpat quis erat.
 
 Sed sed neque diam. Nullam vitae fringilla urna. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed a enim sit amet dui mattis cursus et vitae nulla. Fusce eleifend egestas leo, ac efficitur tellus aliquet pellentesque. Vestibulum in nibh ante. Phasellus tincidunt malesuada elit ut volutpat.
 
@@ -115,26 +118,32 @@ Aenean accumsan justo non neque aliquam rhoncus. Nullam volutpat ex sit amet dig
     <div class="col-12" > <h2> Learn more about the big and beautiful country </h2> </div>
     
   </div>
-  <div class="row">
-    <div class="col-4">Culture<img src="images/culture.jpg" class="rounded img-fluid" alt="culture"></div>
-    <div class="col-4">Nature <img src="images/nature.jpg" class="rounded img-fluid" alt="nature"></div>
-    <div class="col-4">Food<img src="images/food.jpg" class="rounded img-fluid" alt="food"> </div>
-  </div>
+ 
+			<div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-4"><img src="images/culture.jpg" class="rounded img-fluid" alt="culture"></div>
+    <div class="col-sm-12 col-md-12 col-lg-4"><img src="images/nature.jpg" class="rounded img-fluid" alt="nature"></div>
+    <div class="col-sm-12 col-md-12 col-lg-4"><img src="images/food.jpg" class="rounded img-fluid" alt="food"> </div>
+  
+	</div>
+			
    <p></p>
   
   
-
+</div>
   
   <!-- This is the footer -->
     <footer>
-     <p> Thank for checking tips about Colombia! Sign up to learn more! <p>
+     <p> Thank for checking tips about Colombia! Sign up to learn more! </p>
       <div class="input-group mb-3">
   <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
   <div class="input-group-append">
     <span class="input-group-text" id="basic-addon2">@example.com</span>
   </div>
 </div>
+	
+		
     </footer>
+	</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js (is included in bootstrapjava script), then Bootstrap JS -->

@@ -31,6 +31,7 @@ body {
 h1{
   color:black;
   font-family: 'bold' bold;
+  text-align: center;
   font-size: 60;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -45,8 +46,10 @@ p{
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 50px;
+	align-content: center;
 
 }
+
 nav{
   background: darkgray;
 }
@@ -89,6 +92,17 @@ footer{
   display: grid;
   grid: 150px / auto auto auto;
 }
+.slideshow{
+	height: 500px;
+	width: 100%;
+}
+.button{
+	height:30px;
+}
+.navbar{
+
+}
+
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
